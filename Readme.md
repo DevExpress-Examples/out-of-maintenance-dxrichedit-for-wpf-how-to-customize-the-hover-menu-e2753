@@ -1,7 +1,7 @@
 <!-- default file list -->
 *Files to look at*:
 
-* [MainWindow.xaml](./CS/DXRichEdit_HoverMenu/MainWindow.xaml) (VB: [MainWindow.xaml.vb](./VB/DXRichEdit_HoverMenu/MainWindow.xaml.vb))
+* [MainWindow.xaml](./CS/DXRichEdit_HoverMenu/MainWindow.xaml) (VB: [MainWindow.xaml](./VB/DXRichEdit_HoverMenu/MainWindow.xaml))
 * [MainWindow.xaml.cs](./CS/DXRichEdit_HoverMenu/MainWindow.xaml.cs) (VB: [MainWindow.xaml.vb](./VB/DXRichEdit_HoverMenu/MainWindow.xaml.vb))
 * [MySmileyCommand.cs](./CS/DXRichEdit_HoverMenu/MySmileyCommand.cs) (VB: [MySmileyCommand.vb](./VB/DXRichEdit_HoverMenu/MySmileyCommand.vb))
 <!-- default file list end -->
