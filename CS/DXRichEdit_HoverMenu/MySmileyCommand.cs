@@ -88,7 +88,7 @@ namespace DXRichEdit_HoverMenu
     DocumentRange[] smileyRanges = doc.FindAll(":-)", SearchOptions.WholeWord, range);
     foreach (DocumentRange r in smileyRanges) {
         doc.Delete(r);
-        doc.InsertImage(r.Start, smile);
+        doc.Images.Insert(r.Start, smile);
     }
             #endregion #findall
         }

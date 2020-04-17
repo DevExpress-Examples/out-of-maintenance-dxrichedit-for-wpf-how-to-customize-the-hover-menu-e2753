@@ -81,8 +81,8 @@ Namespace DXRichEdit_HoverMenu
     Dim smileyRanges() As DocumentRange = doc.FindAll(":-)", SearchOptions.WholeWord, range)
     For Each r As DocumentRange In smileyRanges
         doc.Delete(r)
-        doc.InsertImage(r.Start, smile)
-    Next r
+                doc.Images.Insert(r.Start, smile)
+            Next r
 '            #End Region ' #findall
         End Sub
 
